@@ -1,13 +1,17 @@
+#长方形面积
 #chang=float(raw_input(">>"))
 #kuan=float(raw_input(">>"))
 #print(chang*kuan)
 
+
+#时分秒
 #s=int(raw_input(">>"))
 #a=s//60
 #b=s%60
 #print(a,b)
 
 
+#数学公式
 x=1
 y=1
 a=0
