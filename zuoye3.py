@@ -29,7 +29,7 @@ for i in range(4):
 print(n)
 
 '''
-
+'''
 #4.找出同时被5和6整除的数
 a=0
 for i in range(100,1001):
@@ -38,8 +38,7 @@ for i in range(100,1001):
         a=a+1
         if(a%10==0):
             print(" ")
-
-
+'''
 #4.比较不同利率的贷款
 '''
 #5.找出最大的n和最小的n
@@ -89,7 +88,27 @@ for i in range(1,100000):
         print(4*n)
 
 '''
+'''
+#10.完全数
+for i in range(1,10001):
+    n=0
+    for j in range(1,int(i/2+1)):
+        if i%j==0:
+            n=n+j
+    if(n==i):
+        print(n)
 
+'''
+'''
+#11.数学问题：组合
+n=0
+for i in range(1,8):
+    for j in range(i,8):
+        if(i!=j):
+            print(i,j)
+            n=n+1
+print(n)
+'''
 
 
 
