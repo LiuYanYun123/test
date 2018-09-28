@@ -19,27 +19,27 @@ while(1):
 '''
 '''
 #2.计算未来学费
-n=10000
 s=10000
 for i in range(10):
     s=s+s*0.05
 print(s)
-for i in range(14):
+n=s
+for i in range(4):
     n=n+n*0.05
 print(n)
-'''
 
 '''
+
 #4.找出同时被5和6整除的数
 a=0
 for i in range(100,1001):
     if((i%5==0)&(i%6==0)):
-        print(i)
+        print(i,end=" ")
         a=a+1
         if(a%10==0):
             print(" ")
 
-'''
+
 #4.比较不同利率的贷款
 '''
 #5.找出最大的n和最小的n
